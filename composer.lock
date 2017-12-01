@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "00dd3b6ffb5b14b11cdf33e7f3c25dd3",
-    "content-hash": "58c6b391161a64801155823153b77e0a",
+    "hash": "e8e94ee0d5eff79ae147ee7b86eb0324",
+    "content-hash": "bfc9c1ea2d1baaa75f3d99dfc3763ec4",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -21,17 +21,6 @@
                 "philippbaschke/acf-pro-installer": "^1.0"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "asha23/wp-seed",
-            "version": "0.4.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/asha23/wp-seed/archive/v0.4.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-theme"
         },
         {
             "name": "composer/installers",
@@ -421,6 +410,26 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "wpackagist-plugin/acf-to-rest-api",
+            "version": "3.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
+                "reference": "tags/3.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields-markdown",
             "version": "1.1.4",
             "source": {
@@ -441,26 +450,6 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields-markdown/"
         },
         {
-            "name": "wpackagist-plugin/advanced-custom-fields-table-field",
-            "version": "1.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields-table-field/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields-table-field.zip?timestamp=1510219133",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-custom-fields-table-field/"
-        },
-        {
             "name": "wpackagist-plugin/markdown-editor",
             "version": "0.1.3",
             "source": {
@@ -479,26 +468,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/markdown-editor/"
-        },
-        {
-            "name": "wpackagist-plugin/tinymce-advanced",
-            "version": "4.6.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
-                "reference": "tags/4.6.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.6.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         }
     ],
     "packages-dev": [],

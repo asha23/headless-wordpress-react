@@ -15,18 +15,6 @@
             "type": "composer",
             "url": "https://wpackagist.org"
         },
-        "theme": {
-            "type": "package",
-            "package": {
-                "name": "asha23/wp-seed",
-                "type": "wordpress-theme",
-                "version": "0.4.0",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/asha23/wp-seed/archive/v0.4.0.zip"
-                }
-            }
-        },
 		"acf": {
 			"type": "package",
 			"package": {
@@ -63,12 +51,10 @@
 		"vlucas/phpdotenv": "^2.0.1",
 		"oscarotero/env": "^1.0",
         "wpackagist-plugin/acf-to-rest-api": "*",
-        "wpackagist-plugin/tinymce-advanced": "*",
 		"advanced-custom-fields/advanced-custom-fields-pro": "*",
         "wpackagist-plugin/markdown-editor": "*",
 		"wp-sync-db/wp-sync-db": "*",
-        "wpackagist-plugin/advanced-custom-fields-markdown": "*",
-        "asha23/wp-seed": "*"
+        "wpackagist-plugin/advanced-custom-fields-markdown": "*"
     },
     "extra": {
         "installer-paths": {

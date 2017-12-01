@@ -276,19 +276,6 @@
         "installation-source": "dist"
     },
     {
-        "name": "asha23/wp-seed",
-        "version": "0.4.0",
-        "version_normalized": "0.4.0.0",
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/asha23/wp-seed/archive/v0.4.0.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "type": "wordpress-theme",
-        "installation-source": "dist"
-    },
-    {
         "name": "johnpbloch/wordpress-core",
         "version": "4.9.1",
         "version_normalized": "4.9.1.0",
@@ -416,28 +403,6 @@
         ]
     },
     {
-        "name": "wpackagist-plugin/tinymce-advanced",
-        "version": "4.6.7",
-        "version_normalized": "4.6.7.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
-            "reference": "tags/4.6.7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.6.7.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
-    },
-    {
         "name": "wpackagist-plugin/markdown-editor",
         "version": "0.1.3",
         "version_normalized": "0.1.3.0",
@@ -477,28 +442,6 @@
         "installation-source": "dist"
     },
     {
-        "name": "wpackagist-plugin/advanced-custom-fields-table-field",
-        "version": "1.2.1",
-        "version_normalized": "1.2.1.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/advanced-custom-fields-table-field/",
-            "reference": "trunk"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields-table-field.zip?timestamp=1510219133",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/advanced-custom-fields-table-field/"
-    },
-    {
         "name": "wpackagist-plugin/advanced-custom-fields-markdown",
         "version": "1.1.4",
         "version_normalized": "1.1.4.0",
@@ -519,5 +462,27 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/advanced-custom-fields-markdown/"
+    },
+    {
+        "name": "wpackagist-plugin/acf-to-rest-api",
+        "version": "3.1.0",
+        "version_normalized": "3.1.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
+            "reference": "tags/3.1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.1.0.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
     }
 ]
