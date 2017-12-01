@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+
 class App extends Component {
   constructor() {
     super();
@@ -7,7 +9,7 @@ class App extends Component {
     }
   }
 componentDidMount() {
-    let dataURL = "http://hwp-react.local/wp-json/wp/v2/movies?_embed";
+    let dataURL = "http://headless.local/wp-json/wp/v2/movies?_embed";
     fetch(dataURL)
       .then(res => res.json())
       .then(res => {
@@ -23,7 +25,7 @@ render() {
               <p><strong>Title:</strong> {movie.title.rendered}</p>
               <p><strong>Release Year:</strong> {movie.acf.release_year}</p>
               <p><strong>Rating:</strong> {movie.acf.rating}</p>
-              <div><strong>Description:</strong><div dangerouslySetInnerHTML={ {__html: movie.acf.description} } /></div>
+              <div><strong>Description:</strong> {movie.acf.description} </div>
             </div>
     });
 return (
