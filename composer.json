@@ -1,14 +1,14 @@
 {
-    "name": "arlo-base-wordpress",
+    "name": "headless-react",
     "type": "project",
     "license": "MIT",
-    "description": "Arlo Wordpress base installation",
+    "description": "Headless React starter",
     "authors": [{
         "name": "Ash Whiting",
         "email": "ash_whiting@hotmail.com"
     }],
     "keywords": [
-        "Arlo", "wordpress framework", "base theme", "wordpress", "composer", "vagrant", "wp"
+        "Headless React", "wordpress framework", "base theme", "wordpress", "composer", "wp"
     ],
     "repositories": {
         "wp-packagist": {

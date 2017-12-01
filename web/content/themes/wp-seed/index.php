@@ -1,5 +1,1 @@
-<?php 
-	get_header();
-	get_template_part( 'views/loops/loop', 'generic' );
-	get_footer();
-?>
+<?php wp_redirect( site_url('wp-admin') ); exit; ?>
